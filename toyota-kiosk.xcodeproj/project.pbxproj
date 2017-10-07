@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F93A22761F86CDC90001F77F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22751F86CDC90001F77F /* AppDelegate.swift */; };
+		F93A22781F86CDC90001F77F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22771F86CDC90001F77F /* ViewController.swift */; };
+		F93A227B1F86CDC90001F77F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93A22791F86CDC90001F77F /* Main.storyboard */; };
+		F93A227D1F86CDC90001F77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F93A227C1F86CDC90001F77F /* Assets.xcassets */; };
+		F93A22801F86CDC90001F77F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F93A227E1F86CDC90001F77F /* LaunchScreen.storyboard */; };
+		F93A228B1F86CDC90001F77F /* toyota_kioskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A228A1F86CDC90001F77F /* toyota_kioskTests.swift */; };
+		F93A22961F86CDC90001F77F /* toyota_kioskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93A22951F86CDC90001F77F /* toyota_kioskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F93A22871F86CDC90001F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93A226A1F86CDC90001F77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93A22711F86CDC90001F77F;
+			remoteInfo = "toyota-kiosk";
+		};
+		F93A22921F86CDC90001F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93A226A1F86CDC90001F77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F93A22711F86CDC90001F77F;
+			remoteInfo = "toyota-kiosk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F93A22721F86CDC90001F77F /* toyota-kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toyota-kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93A22751F86CDC90001F77F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F93A22771F86CDC90001F77F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F93A227A1F86CDC90001F77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F93A227C1F86CDC90001F77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F93A227F1F86CDC90001F77F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F93A22811F86CDC90001F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93A22861F86CDC90001F77F /* toyota-kioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toyota-kioskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93A228A1F86CDC90001F77F /* toyota_kioskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toyota_kioskTests.swift; sourceTree = "<group>"; };
+		F93A228C1F86CDC90001F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93A22911F86CDC90001F77F /* toyota-kioskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "toyota-kioskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F93A22951F86CDC90001F77F /* toyota_kioskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toyota_kioskUITests.swift; sourceTree = "<group>"; };
+		F93A22971F86CDC90001F77F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F93A226F1F86CDC90001F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22831F86CDC90001F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A228E1F86CDC90001F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F93A22691F86CDC90001F77F = {
+			isa = PBXGroup;
+			children = (
+				F93A22741F86CDC90001F77F /* toyota-kiosk */,
+				F93A22891F86CDC90001F77F /* toyota-kioskTests */,
+				F93A22941F86CDC90001F77F /* toyota-kioskUITests */,
+				F93A22731F86CDC90001F77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F93A22731F86CDC90001F77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22721F86CDC90001F77F /* toyota-kiosk.app */,
+				F93A22861F86CDC90001F77F /* toyota-kioskTests.xctest */,
+				F93A22911F86CDC90001F77F /* toyota-kioskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F93A22741F86CDC90001F77F /* toyota-kiosk */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22751F86CDC90001F77F /* AppDelegate.swift */,
+				F93A22771F86CDC90001F77F /* ViewController.swift */,
+				F93A22791F86CDC90001F77F /* Main.storyboard */,
+				F93A227C1F86CDC90001F77F /* Assets.xcassets */,
+				F93A227E1F86CDC90001F77F /* LaunchScreen.storyboard */,
+				F93A22811F86CDC90001F77F /* Info.plist */,
+			);
+			path = "toyota-kiosk";
+			sourceTree = "<group>";
+		};
+		F93A22891F86CDC90001F77F /* toyota-kioskTests */ = {
+			isa = PBXGroup;
+			children = (
+				F93A228A1F86CDC90001F77F /* toyota_kioskTests.swift */,
+				F93A228C1F86CDC90001F77F /* Info.plist */,
+			);
+			path = "toyota-kioskTests";
+			sourceTree = "<group>";
+		};
+		F93A22941F86CDC90001F77F /* toyota-kioskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F93A22951F86CDC90001F77F /* toyota_kioskUITests.swift */,
+				F93A22971F86CDC90001F77F /* Info.plist */,
+			);
+			path = "toyota-kioskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F93A22711F86CDC90001F77F /* toyota-kiosk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93A229A1F86CDC90001F77F /* Build configuration list for PBXNativeTarget "toyota-kiosk" */;
+			buildPhases = (
+				F93A226E1F86CDC90001F77F /* Sources */,
+				F93A226F1F86CDC90001F77F /* Frameworks */,
+				F93A22701F86CDC90001F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "toyota-kiosk";
+			productName = "toyota-kiosk";
+			productReference = F93A22721F86CDC90001F77F /* toyota-kiosk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F93A22851F86CDC90001F77F /* toyota-kioskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93A229D1F86CDC90001F77F /* Build configuration list for PBXNativeTarget "toyota-kioskTests" */;
+			buildPhases = (
+				F93A22821F86CDC90001F77F /* Sources */,
+				F93A22831F86CDC90001F77F /* Frameworks */,
+				F93A22841F86CDC90001F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93A22881F86CDC90001F77F /* PBXTargetDependency */,
+			);
+			name = "toyota-kioskTests";
+			productName = "toyota-kioskTests";
+			productReference = F93A22861F86CDC90001F77F /* toyota-kioskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F93A22901F86CDC90001F77F /* toyota-kioskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F93A22A01F86CDC90001F77F /* Build configuration list for PBXNativeTarget "toyota-kioskUITests" */;
+			buildPhases = (
+				F93A228D1F86CDC90001F77F /* Sources */,
+				F93A228E1F86CDC90001F77F /* Frameworks */,
+				F93A228F1F86CDC90001F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F93A22931F86CDC90001F77F /* PBXTargetDependency */,
+			);
+			name = "toyota-kioskUITests";
+			productName = "toyota-kioskUITests";
+			productReference = F93A22911F86CDC90001F77F /* toyota-kioskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93A226A1F86CDC90001F77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chavane Minto";
+				TargetAttributes = {
+					F93A22711F86CDC90001F77F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F93A22851F86CDC90001F77F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F93A22711F86CDC90001F77F;
+					};
+					F93A22901F86CDC90001F77F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F93A22711F86CDC90001F77F;
+					};
+				};
+			};
+			buildConfigurationList = F93A226D1F86CDC90001F77F /* Build configuration list for PBXProject "toyota-kiosk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F93A22691F86CDC90001F77F;
+			productRefGroup = F93A22731F86CDC90001F77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F93A22711F86CDC90001F77F /* toyota-kiosk */,
+				F93A22851F86CDC90001F77F /* toyota-kioskTests */,
+				F93A22901F86CDC90001F77F /* toyota-kioskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F93A22701F86CDC90001F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A22801F86CDC90001F77F /* LaunchScreen.storyboard in Resources */,
+				F93A227D1F86CDC90001F77F /* Assets.xcassets in Resources */,
+				F93A227B1F86CDC90001F77F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22841F86CDC90001F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A228F1F86CDC90001F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F93A226E1F86CDC90001F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A22781F86CDC90001F77F /* ViewController.swift in Sources */,
+				F93A22761F86CDC90001F77F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A22821F86CDC90001F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A228B1F86CDC90001F77F /* toyota_kioskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F93A228D1F86CDC90001F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93A22961F86CDC90001F77F /* toyota_kioskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F93A22881F86CDC90001F77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93A22711F86CDC90001F77F /* toyota-kiosk */;
+			targetProxy = F93A22871F86CDC90001F77F /* PBXContainerItemProxy */;
+		};
+		F93A22931F86CDC90001F77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F93A22711F86CDC90001F77F /* toyota-kiosk */;
+			targetProxy = F93A22921F86CDC90001F77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F93A22791F86CDC90001F77F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93A227A1F86CDC90001F77F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F93A227E1F86CDC90001F77F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F93A227F1F86CDC90001F77F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F93A22981F86CDC90001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F93A22991F86CDC90001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F93A229B1F86CDC90001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-kiosk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-kiosk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F93A229C1F86CDC90001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-kiosk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-kiosk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F93A229E1F86CDC90001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-kioskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-kioskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toyota-kiosk.app/toyota-kiosk";
+			};
+			name = Debug;
+		};
+		F93A229F1F86CDC90001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-kioskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-kioskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toyota-kiosk.app/toyota-kiosk";
+			};
+			name = Release;
+		};
+		F93A22A11F86CDC90001F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-kioskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-kioskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toyota-kiosk";
+			};
+			name = Debug;
+		};
+		F93A22A21F86CDC90001F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X82DZHRTK;
+				INFOPLIST_FILE = "toyota-kioskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChavaneMinto.toyota-kioskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "toyota-kiosk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F93A226D1F86CDC90001F77F /* Build configuration list for PBXProject "toyota-kiosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A22981F86CDC90001F77F /* Debug */,
+				F93A22991F86CDC90001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93A229A1F86CDC90001F77F /* Build configuration list for PBXNativeTarget "toyota-kiosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A229B1F86CDC90001F77F /* Debug */,
+				F93A229C1F86CDC90001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93A229D1F86CDC90001F77F /* Build configuration list for PBXNativeTarget "toyota-kioskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A229E1F86CDC90001F77F /* Debug */,
+				F93A229F1F86CDC90001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F93A22A01F86CDC90001F77F /* Build configuration list for PBXNativeTarget "toyota-kioskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F93A22A11F86CDC90001F77F /* Debug */,
+				F93A22A21F86CDC90001F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93A226A1F86CDC90001F77F /* Project object */;
+}
